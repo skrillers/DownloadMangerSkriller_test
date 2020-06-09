@@ -150,9 +150,4 @@ class XLLoader {
 
     public native int unInit();
 
-    public XLLoader() {
-        System.loadLibrary("xl_stat");
-        System.loadLibrary("xluagc");
-        System.loadLibrary("xl_thunder_sdk");
-    }
 }
